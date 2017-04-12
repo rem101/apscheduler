@@ -5,6 +5,8 @@
   :target: https://coveralls.io/github/agronholm/apscheduler?branch=master
   :alt: Code Coverage
 
+This is a port of APScheduler to micropython using the uasyncio library.  To be tested on the Unix and esp8266 versions of micropython.
+
 Advanced Python Scheduler (APScheduler) is a Python library that lets you schedule your Python code to be executed
 later, either just once or periodically. You can add new jobs or remove old ones on the fly as you please. If you store
 your jobs in a database, they will also survive scheduler restarts and maintain their state. When the scheduler is
